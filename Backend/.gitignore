@@ -1,0 +1,8 @@
+# Environment variables (contains private keys, DB URI, JWT secrets)
+.env
+.env.*
+
+# Dependencies (never commit node_modules)
+node_modules/
+temp/
+*.exe
